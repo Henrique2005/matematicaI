@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(to bottom right,#ffffff, #8bd3ff);
+    background-attachment: fixed;
+    background-image: url(../imagens/fundo.png);
+}
+#logo{
+    border-radius: 20px;
+    margin: 25px;
+}
+#titulo{
+    color: black;
+    font-size: 32px;
+    background-image: linear-gradient(to right, red, #f8f8f8);
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'Arvo', serif;
+}
+.dados{
+     border: 5px solid black;
+     border-radius: 30px;
+     margin: 10px;
+    text-align: center;
+}
+.titulo2{
+    margin: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+.produto{
+    color: black;
+    font-size: 32px;
+    background-image: linear-gradient(to right, #fff500, #f8f8f8); 
+    background-image: linear-gradient(to right, #3b00ff, #f8f8f8);
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    color: black;
+}
+#inicio{
+    text-align: center;
+}
+

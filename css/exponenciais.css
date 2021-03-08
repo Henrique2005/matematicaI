@@ -1,0 +1,83 @@
+body{
+    background-attachment: fixed;
+    background-image: url(../imagens/fundo2.jpg);
+    
+}
+#voltar{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #ff6464;
+    color:black;
+    padding: 20px;
+    font-family: 'Arvo', serif;
+    background-position: center;
+}
+#titulo{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'Arvo', serif;
+    background-color: black;
+}
+
+.inteiro{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #b7f2e7;
+    color:black;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+li{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+.centro{
+    text-align: center;
+}
+.margem{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+h2{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+.a{
+    border-radius: 100px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+#tudo{
+    border: 6px dashed black;
+    margin: 10px;
+}
+#ex{
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+img:hover{
+    border-radius: 50px;
+    width: 450px;
+    height: 450px;
+    padding: 10px;
+}
+#ex:hover{
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+}
+.texto{
+    text-align: center;
+}
