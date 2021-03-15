@@ -12,117 +12,172 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
-<body id="tudo">
-    
-    <center>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="introducao.html">Introdução</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quadraticas.html">Funções Quadráticas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="modulares.html">Funções Modulares</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="exponenciais.html">Funções Exponenciais</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="tudo">
+        <br />
         <h1 id="titulo">Funções Exponenciais</h1>
-    </center>
-    <br />
-    <h2>Definição:</h2>
-    <div class="inteiro">
-        <div class="margem">
-            <div class="texto">
-                <p>São funções matemáticas cuja variável independente x está no expoente de uma certa base.</p>
-                <p>Chamamos de função exponencial de base "a", a função f de ℝ em ℝ que associa a cada x real o número real a^x, sendo a > 0 / a ≠ 1.</p>
-                <ul>
-                    <li>f(x) = a^x</li>
-                </ul>
+
+        <br />
+        <h2>Definição:</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br/>
+                                <p>São funções matemáticas cuja variável independente x está no expoente de uma certa base.</p>
+                                <p>Chamamos de função exponencial de base "a", a função f de ℝ em ℝ que associa a cada x real o número real a^x, sendo a > 0 / a ≠ 1.</p>
+                                <ul>
+                                    <li>f(x) = a^x</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
 
-    
-    
-    <h2>Gráficos: </h2>
-    <div class="inteiro">
-        <div class="margem">
-            <div class="texto">
-                <ol type="a">
-                    <li>Para uma função do tipo f(x) = a^x, a curva que a representa está toda acima do eixo das abcissas, pois a^x será sempre maior do que zero para todo x.</li>
-                    <li>Corta o eixo das ordenadas no ponto (0,1).</li>
-                    <li>f(x) = a^x é crescente se a > 1 e decrescente se 0 < a < 1.</li>
-                    <img src="imagens/exaexponenciais.jpeg" class="a" />
-                    <img src="imagens/exbexponenciais.jpeg" class="a" />
-                   
-                    <br/>
-                </ol>
+
+        <h2>Gráficos: </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br/>
+                                <ol type="a">
+                                    <li>Para uma função do tipo f(x) = a^x, a curva que a representa está toda acima do eixo das abcissas, pois a^x será sempre maior do que zero para todo x.</li>
+                                    <li>Corta o eixo das ordenadas no ponto (0,1).</li>
+                                    <li>f(x) = a^x é crescente se a > 1 e decrescente se 0 < a < 1.</li>
+                                            <img src="imagens/exaexponenciais.jpeg" class="a"/>
+                                            <img src="imagens/exbexponenciais.jpeg" class="a"/>
+
+                                            <br />
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
 
-    
 
-    
-    <h2>Aplicação:</h2>
-    <div class="inteiro">
-        <div class="margem">
-            <div class="texto">
-                <p>O crescimento exponencial é característico por diversos fenômenos naturais (como cálculo de população, diminuição de água, contaminação por bactéria ou vírus, etc). Assim a fómrula é modificada por constantes características do fenômeno, como, por exemplo:</p>
-                <ul>
-                    <li>f(x) = c * a^kx</li>
-                </ul>
-                <p>Exemplo de equação:</p>
-                <p>5 ∙ 7^x+3 = 1715</p>
-                <p>7^x+3 = 1715/5</p>
-                <p>7^x+3 = 343</p>
-                <p>7^x+3 = 7^3</p>
-                <p>x + 3 = 3</p>
-                <p>x = 0</p>
-                <br/>
-                <p>Outro exemplo de equação: </p>
-                <p>2.437.989 = 2.000.000 ∗ 1,02^t</p>
-                <p>1,02^t = 2.437.989/2.000.000</p>
-                <p>1,02^t = 1,2189945</p>
-                <p><b>Não é possível cortar as bases, isso significa que não conseguimos resolver a equação exponencial. Assim, precisaremos usar logaritmos, outro assunto estudado durante o módulo de matemática.</b></p>
+
+        <h2>Aplicação:</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br/>
+                                <p>O crescimento exponencial é característico por diversos fenômenos naturais (como cálculo de população, diminuição de água, contaminação por bactéria ou vírus, etc). Assim a fómrula é modificada por constantes características do fenômeno, como, por exemplo:</p>
+                                <ul>
+                                    <li>f(x) = c * a^kx</li>
+                                </ul>
+                                <p>Exemplo de equação:</p>
+                                <p>5 ∙ 7^x+3 = 1715</p>
+                                <p>7^x+3 = 1715/5</p>
+                                <p>7^x+3 = 343</p>
+                                <p>7^x+3 = 7^3</p>
+                                <p>x + 3 = 3</p>
+                                <p>x = 0</p>
+                                <br />
+                                <p>Outro exemplo de equação: </p>
+                                <p>2.437.989 = 2.000.000 ∗ 1,02^t</p>
+                                <p>1,02^t = 2.437.989/2.000.000</p>
+                                <p>1,02^t = 1,2189945</p>
+                                <p><b>Não é possível cortar as bases, isso significa que não conseguimos resolver a equação exponencial. Assim, precisaremos usar logaritmos, outro assunto estudado durante o módulo de matemática.</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    
-    
 
-    <h2>Reflexão:</h2>
-    <div class="inteiro">
-        <div class="margem">
-            <div class="texto">
-                <p>As funções exponenciais, por mais que não pareça, estão presentes em diversos fatores do nosso cotidiano. Nesse tema também se encaixa o motivo da escolha desse assunto para o portfólio, na grande variadade de utilidades que essa função pode obter. Assim, as funções exponenciais contribuem de diversas maneiras para o nosso aprendizado, de maneiras inovadoras, como o cálculo de contaminação de pessoas pelo corona vírus.</p>
-                <p>Os procedimentos utilizados para encontrar as respostas, foram os mesmos utilizados pela professora durante a aula online. Não senti muita dificuldade nesse assunto. Mas ainda sim compareci no horário de atendimento para esclarecer algumas pequenas dúvidas.</p>
-                <p>Com relação ao  meu empenho e participação, os considero relativamente bons, visto que li todos os materiais, e estive presente na aula online, assim, durante esse tema, meu desempenho total pode ser avaliado como satisfatório.</p>
-                
+
+        <h2>Reflexão:</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br/>
+                                <p>As funções exponenciais, por mais que não pareça, estão presentes em diversos fatores do nosso cotidiano. Nesse tema também se encaixa o motivo da escolha desse assunto para o portfólio, na grande variadade de utilidades que essa função pode obter. Assim, as funções exponenciais contribuem de diversas maneiras para o nosso aprendizado, de maneiras inovadoras, como o cálculo de contaminação de pessoas pelo corona vírus.</p>
+                                <p>Os procedimentos utilizados para encontrar as respostas, foram os mesmos utilizados pela professora durante a aula online. Não senti muita dificuldade nesse assunto. Mas ainda sim compareci no horário de atendimento para esclarecer algumas pequenas dúvidas.</p>
+                                <p>Com relação ao meu empenho e participação, os considero relativamente bons, visto que li todos os materiais, e estive presente na aula online, assim, durante esse tema, meu desempenho total pode ser avaliado como satisfatório.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    
-    
-    
-    
-    
-    <h2>Exemplo de exercício realizado:</h2>
-    <div class="inteiro">
-        <div class="margem">
-            <div class="texto">
-                <p>Estima-se que a população de uma cidade cresça 2% a cada 5 anos. Considerando que a população inicial era de 90.000 habitantes, responda:</p>
-                <ol type="a">
-                    <li>Qual a função matemática que descreve a situação?</li>
-                    <li>Qual será a população após 20 anos?</li>
-                </ol>
-                <img src="imagens/exercicioexponenciais.jpeg" id="ex" />
+
+
+
+
+        <h2>Exemplo de exercício realizado:</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br/>
+                                <p>Estima-se que a população de uma cidade cresça 2% a cada 5 anos. Considerando que a população inicial era de 90.000 habitantes, responda:</p>
+                                <ol type="a">
+                                    <li>Qual a função matemática que descreve a situação?</li>
+                                    <li>Qual será a população após 20 anos?</li>
+                                </ol>
+                                <img src="imagens/exercicioexponenciais.jpeg" id="ex" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    
-    
-    
 
-    <br />
-    <br />
-    <center>
-        <a href="index.html" id="voltar">Voltar</a><br />
-    </center>
+
+
+        <br />
+        <br />
+        <center>
+            <a href="index.html" id="voltar">Voltar</a><br />
+        </center>
+    </div>
 </body>
 
 </html>

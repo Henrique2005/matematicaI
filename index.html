@@ -13,36 +13,85 @@
     <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
 
-    <div id="inicio">
-        <img src="imagens/ifrs.jpg" align="middle" id="logo" />
-        <h1 id="titulo">Portfólio de Matemática</h1> <br />
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="introducao.html">Introdução</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quadraticas.html">Funções Quadráticas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="modulares.html">Funções Modulares</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="exponenciais.html">Funções Exponenciais</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="fundo">
+        <div id="inicio">
+            <img src="imagens/ifrs.jpg" align="middle" id="logo" class="img-fluid"/>
+            <h1 id="titulo">Portfólio de Matemática</h1> <br />
+        </div>
+
+
+
+        <h2 class="titulo2">
+            <li>Dados do Trabalho: </li>
+        </h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="dados">
+                        <br />
+                        <p><b>Instituição:</b> Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - Campus Erechim</p> <br />
+                        <p><b>Nome:</b> Henrique Mateus Teodoro</p> <br />
+                        <p><b>Matéria 1:</b> Desenvolvimento de Web I</p> <br />
+                        <p><b>Matéria 2:</b> Matemática</p> <br />
+                        <p><b>Curso:</b> Técnico em Informática Ensino Médio Integrado</p> <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <h2 class="titulo2">
+            <li>Sumário: </li>
+        </h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="dados">
+                        <br />
+                        <h2 class="produto"><a href="introducao.html">1. Introdução</a></h2>
+                        <h2 class="produto"><a href="quadraticas.html">2. Funções Quadráticas</a></h2>
+                        <h2 class="produto"><a href="modulares.html">3. Funções Modulares</a></h2>
+                        <h2 class="produto"><a href="exponenciais.html">4. Funções Exponenciais</a></h2>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <h2 class="titulo2">
-        <li>Dados do Trabalho: </li>
-    </h2>
-    <div class="dados">
-        <p><b>Instituição:</b> Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - Campus Erechim</p> <br />
-        <p><b>Nome:</b> Henrique Mateus Teodoro</p> <br />
-        <p><b>Matéria 1:</b> Desenvolvimento de Web I</p> <br />
-        <p><b>Matéria 2:</b> Matemática</p> <br />
-        <p><b>Curso:</b> Técnico em Informática Ensino Médio Integrado</p> <br />
-    </div>
-
-    <h2 class="titulo2">
-        <li>Sumário: </li>
-    </h2>
-    <div class="dados">
-        <h2 class="produto"><a href="introducao.html">1. Introdução</a></h2>
-        <h2 class="produto"><a href="quadraticas.html">2. Funções Quadráticas</a></h2>
-        <h2 class="produto"><a href="modulares.html">3. Funções Modulares</a></h2>
-        <h2 class="produto"><a href="exponenciais.html">4. Funções Exponenciais</a></h2>
-    </div>
-</body>
-
-</html>
+</body></html>

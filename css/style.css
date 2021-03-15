@@ -31,8 +31,7 @@ p{
 .produto{
     color: black;
     font-size: 32px;
-    background-image: linear-gradient(to right, #fff500, #f8f8f8); 
-    background-image: linear-gradient(to right, #3b00ff, #f8f8f8);
+    background-image: linear-gradient(to right, #8bd3ff, #f8f8f8); 
     text-align: center;
     border-radius: 30px;
     font-family: 'Oswald', sans-serif;

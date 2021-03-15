@@ -20,6 +20,7 @@ body{
     border-radius: 30px;
     font-family: 'Arvo', serif;
     background-color: black;
+    text-align: center;
 }
 
 .inteiro{
@@ -28,8 +29,6 @@ body{
     margin: 10px;
     background-color: #b7f2e7;
     color:black;
-    margin-left: 250px;
-    margin-right: 250px;
 }
 p{
     font-family: 'Open Sans', sans-serif;
@@ -43,8 +42,8 @@ li{
     text-align: center;
 }
 .margem{
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 h2{
     text-align: center;

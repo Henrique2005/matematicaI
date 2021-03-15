@@ -12,162 +12,222 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
-<body id="tudo">
+<body>
 
-    
-    
-    <center>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="introducao.html">Introdução</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quadraticas.html">Funções Quadráticas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="modulares.html">Funções Modulares</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="exponenciais.html">Funções Exponenciais</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div id="tudo">
+        <br />
         <h1 id="titulo">Funções Quadráticas</h1>
-    </center>
-    <br />
-    <h2>Definição:</h2>
-    <div class="inteiro">
-        <div class="margem">
-            <div class="texto">
-                <p>Função Quadrática ou Função do 2º grau é uma função f: ℝ → ℝ definida por: </p>
-                <p class="centro">f(x) = ax² + bx + c</p>
-                <ul>
-                    <li>Os coeficientes a, b e c são números reais e o coeficiente a precisa ser, necessariamente, diferente de zero.</li>
-                    <li>O gráfico de uma função quadrática será sempre uma parábola com eixo de simetria paralelo ao eixo dos y. </li>
-                    <li>Seu domínio é D(f) = ℝ.</li>
-                    <li>A imagem dependerá da concavidade e do vértice da parábola.</li>
-                    <li>Normalmente calculamos o f(x) dado o valor de x. Ou seja, achar y dado o x.</li>
-                </ul>
+
+        <br />
+        <h2 class="texto">Definição:</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br />
+                                <p class="centro">Função Quadrática ou Função do 2º grau é uma função f: ℝ → ℝ definida por: </p>
+                                <p class="centro">f(x) = ax² + bx + c</p>
+                                <ul>
+                                    <li>Os coeficientes a, b e c são números reais e o coeficiente a precisa ser, necessariamente, diferente de zero.</li>
+                                    <li>O gráfico de uma função quadrática será sempre uma parábola com eixo de simetria paralelo ao eixo dos y. </li>
+                                    <li>Seu domínio é D(f) = ℝ.</li>
+                                    <li>A imagem dependerá da concavidade e do vértice da parábola.</li>
+                                    <li>Normalmente calculamos o f(x) dado o valor de x. Ou seja, achar y dado o x.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
 
-    
-    
-    <h2>Gráficos: </h2>
-    <div class="inteiro">
-        <div class="margem">
-            <div class="texto">
-                <p>O gráfico da função quadrática é uma parábola, cuja concavidade é determinada de acordo com o valor de a. Se a maior que 0, a concavidade da parábola estará voltada para cima e se a menor que 0, a concavidade da parábola estará voltada para baixo.</p><br />
-                <img src="imagens/anegativo.jpeg" class="a" /><br/>
-                <img src="imagens/apositivo.jpeg" class="a" />
+
+        <h2 class="texto">Gráficos: </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br />
+                                <p>O gráfico da função quadrática é uma parábola, cuja concavidade é determinada de acordo com o valor de a. Se a maior que 0, a concavidade da parábola estará voltada para cima e se a menor que 0, a concavidade da parábola estará voltada para baixo.</p><br />
+                                <img src="imagens/anegativo.jpeg" class="a" /><br />
+                                <img src="imagens/apositivo.jpeg" class="a" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
 
-    
-    
-    <h2>Vértice e Raízes da função: </h2>
-    <div class="inteiro">
-        <div class="margem">
-            <div class="texto">
-                <p>As raízes ou zeros da função quadrática são os valores de x em que a f(x) = 0. Ou seja, pontos onde o gráfico intercepta o eixo x.</p>
-                <p>Já o vértice, é o ponto da função quadrática em que a parábola muda seu crescimento/decrescimento. Quando a concavidade está para baixo, o vértice é o ponto de máximo. Quando a concavidade está para cima, é o ponto de mínimo.</p><br />
-                <img src="imagens/vertice.jpeg" class="a" />
+
+        <h2 class="texto">Vértice e Raízes da função: </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br />
+                                <p>As raízes ou zeros da função quadrática são os valores de x em que a f(x) = 0. Ou seja, pontos onde o gráfico intercepta o eixo x.</p>
+                                <p>Já o vértice, é o ponto da função quadrática em que a parábola muda seu crescimento/decrescimento. Quando a concavidade está para baixo, o vértice é o ponto de máximo. Quando a concavidade está para cima, é o ponto de mínimo.</p><br />
+                                <img src="imagens/vertice.jpeg" class="a" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    
-    
-    <h2>Diferentes formas: </h2>
-    <div class="inteiro">
-        <div class="margem">
-            <div class="texto">
-                <p>A função quadrática pode ser escrita em três formas: </p><br />
-                <table border="1" bordercolor="#6f0e0e">
-                    <thead>
-                        <tr>
-                            <th scope="col">Formas</th>
-                            <th scope="col">Equação</th>
-                            <th scope="col">Função</th>
-                        </tr>
-                    </thead>
 
-                    <tbody>
-                        <tr>
-                            <td>Forma Geral: </td>
-                            <td>f(x) = ax² + bx + c</td>
-                            <td>Da qual (0,c) é o ponto de intersecção no eixo y.</td>
-                        </tr>
-                        <tr>
-                            <td>Forma Canônica: </td>
-                            <td>f(x) = a(x - xv)² + yv</td>
-                            <td>Da qual (xv,yv) é o vértice da função.</td>
-                        </tr>
-                        <tr>
-                            <td>Forma Fatorada: </td>
-                            <td>f(x) = a(x - x1)(x - x2)</td>
-                            <td>Da qual x1 e x2 são as raízes da função da função.</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p>Para transformar uma forma em outra, precisamos: </p>
+        <h2 class="texto">Diferentes formas: </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br />
+                                <p class="centro">A função quadrática pode ser escrita em três formas: </p>
+                                <table border="1" bordercolor="#6f0e0e" align="center">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Formas</th>
+                                            <th scope="col">Equação</th>
+                                            <th scope="col">Função</th>
+                                        </tr>
+                                    </thead>
 
-                <table border="1" bordercolor="#6f0e0e">
-                    <tbody>
-                        <tr>
-                            <td>Forma Canônica e Fatorada → Forma Geral </td>
-                            <td>Realizar todas as multiplicações e potências disponíveis</td>
-                        </tr>
-                        <tr>
-                            <td>Forma Geral → Forma Canônica</td>
-                            <td>Encontrar o vértice da função e substituir na fórmula.</td>
-                        </tr>
-                        <tr>
-                            <td>Forma Geral → Forma Fatorada: </td>
-                            <td>Encontrar as raízes da função e substituir na fórmula.</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <br>
+                                    <tbody>
+                                        <tr>
+                                            <td>Forma Geral: </td>
+                                            <td>f(x) = ax² + bx + c</td>
+                                            <td>Da qual (0,c) é o ponto de intersecção no eixo y.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Forma Canônica: </td>
+                                            <td>f(x) = a(x - xv)² + yv</td>
+                                            <td>Da qual (xv,yv) é o vértice da função.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Forma Fatorada: </td>
+                                            <td>f(x) = a(x - x1)(x - x2)</td>
+                                            <td>Da qual x1 e x2 são as raízes da função da função.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <br />
+
+                                <p class="centro">Para transformar uma forma em outra, precisamos: </p>
+                                <table border="1" bordercolor="#6f0e0e" align="center">
+                                    <tbody>
+                                        <tr>
+                                            <td>Forma Canônica e Fatorada → Forma Geral </td>
+                                            <td>Realizar todas as multiplicações e potências disponíveis</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Forma Geral → Forma Canônica</td>
+                                            <td>Encontrar o vértice da função e substituir na fórmula.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Forma Geral → Forma Fatorada: </td>
+                                            <td>Encontrar as raízes da função e substituir na fórmula.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    
-    
 
-    <h2>Reflexão:</h2>
-    <div class="inteiro">
-        <div class="margem">
-            <div class="texto">
-                <p>O estudo sobre Funções Quadráticas pode ser considerado de extrema importância para nossa aprendizagem e formação como estudante, e nesse mesmo contexto está a justificativa sobre a escolha desse tema no portfólio, a sua alta reputação e constante aparição em vestibulares ou no ENEM.</p>
-                <p>Os procedimentos e métodos utilizados para a realização das atividades foram os mesmos passados durante as aulas online, tendo como meio de estudo também os documentos disponibilizados pela professora. Sinto que tive mais dificuldade na transformação entre as formas geral, canônica e fatorada. Para sancionar essas dúvidas procurei auxílio da professora através do WhatsApp e no horário de atendimento, onde consegui resolvê-las após algumas explicações.</p>
-                <p>Com relação ao meu empenho, dedicação e participação, acredito ter me saído bem nos três quesitos. Além de ter comparecido em todas as aulas e horários de atendimento, li todo o material disponibilizado. Também mantive meu comprometimento em bom estado, entregando o trabalho realizado no período de tempo correto. A partir disso, considero meu empenho durante esse assunto consideravelmente bom, apesar de sentir que ainda é necessário prestar mais atenção durante as explicações da professora.</p>
+
+        <h2 class="texto">Reflexão:</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br />
+                                <p>O estudo sobre Funções Quadráticas pode ser considerado de extrema importância para nossa aprendizagem e formação como estudante, e nesse mesmo contexto está a justificativa sobre a escolha desse tema no portfólio, a sua alta reputação e constante aparição em vestibulares ou no ENEM.</p>
+                                <p>Os procedimentos e métodos utilizados para a realização das atividades foram os mesmos passados durante as aulas online, tendo como meio de estudo também os documentos disponibilizados pela professora. Sinto que tive mais dificuldade na transformação entre as formas geral, canônica e fatorada. Para sancionar essas dúvidas procurei auxílio da professora através do WhatsApp e no horário de atendimento, onde consegui resolvê-las após algumas explicações.</p>
+                                <p>Com relação ao meu empenho, dedicação e participação, acredito ter me saído bem nos três quesitos. Além de ter comparecido em todas as aulas e horários de atendimento, li todo o material disponibilizado. Também mantive meu comprometimento em bom estado, entregando o trabalho realizado no período de tempo correto. A partir disso, considero meu empenho durante esse assunto consideravelmente bom, apesar de sentir que ainda é necessário prestar mais atenção durante as explicações da professora.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    
-    
-    
-    
-    
-    <h2>Exemplo de exercício realizado:</h2>
-    <div class="inteiro">
-        <div class="margem">
-            <div class="texto">
-                <p>(Enem 2016) Para evitar uma epidemia, a Secretaria de Saúde de uma cidade dedetizou todos os bairros, de modo a evitar a proliferação do mosquito da dengue. Sabe-se que o número f de infectados é dado pela função f(t) = − t² + 120t (em que t é expresso em dia e t = 0 é o dia anterior à primeira infecção) e que tal expressão é válida para os 60 primeiros dias da epidemia. A Secretaria de Saúde decidiu que uma segunda dedetização deveria ser feita no dia em que o número de infectados chegasse à marca de 1 600 pessoas, e uma segunda dedetização precisou acontecer. A segunda dedetização começou no:</p>
-                <ol type="a">
-                    <li>19º dia.</li>
-                    <li>20º dia.</li>
-                    <li>29º dia.</li>
-                    <li>30º dia.</li>
-                    <li>60º dia.</li>
-                </ol>
-                <img src="imagens/ex_quadraticas.jpeg" id="ex" />
+
+
+
+
+        <h2 class="texto">Exemplo de exercício realizado:</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br />
+                                <p>(Enem 2016) Para evitar uma epidemia, a Secretaria de Saúde de uma cidade dedetizou todos os bairros, de modo a evitar a proliferação do mosquito da dengue. Sabe-se que o número f de infectados é dado pela função f(t) = − t² + 120t (em que t é expresso em dia e t = 0 é o dia anterior à primeira infecção) e que tal expressão é válida para os 60 primeiros dias da epidemia. A Secretaria de Saúde decidiu que uma segunda dedetização deveria ser feita no dia em que o número de infectados chegasse à marca de 1 600 pessoas, e uma segunda dedetização precisou acontecer. A segunda dedetização começou no:</p>
+                                <ol type="a">
+                                    <li>19º dia.</li>
+                                    <li>20º dia.</li>
+                                    <li>29º dia.</li>
+                                    <li>30º dia.</li>
+                                    <li>60º dia.</li>
+                                </ol>
+                                <img src="imagens/ex_quadraticas.jpeg" id="ex" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    
-    
-    
 
-    <br />
-    <br />
-    <center>
-        <a href="index.html" id="voltar">Voltar</a><br />
-    </center>
+
+
+        <br />
+        <br />
+        <center>
+            <a href="index.html" id="voltar">Voltar</a><br />
+        </center>
+    </div>
 </body>
 
 </html>
