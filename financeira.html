@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Portfólio de Matemática</title>
+    <link type='text/css' rel='stylesheet' href="css/financeira.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="introducao.html">Introdução</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quadraticas.html">Funções Quadráticas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="modulares.html">Funções Modulares</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="exponenciais.html">Funções Exponenciais</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div id="tudo">
+        <br />
+        <h1 id="titulo">Matemática Financeira</h1>
+
+        <br />
+        <h2 class="texto">Definição:</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br />
+                                <p>A matemática financeira é uma das áreas da matemática responsável por estudar fenômenos relacionados ao mundo financeiro, utilizando conceitos matemáticos aplicados à análise de dados.</p>
+                                <p>Os problemas clássicos de matemática financeira são ligados a questão do valor do dinheiro no tempo e como isso é aplicado a empréstimos, investimentos e avaliação financeira de projetos.</p>
+                                <p class="centro">Conceitos:</p>
+                                <ul>
+                                    <li>Capital Inicial:</li>
+                                    <p>É o valor inicial de um empréstimo ou aplicação, sobre o qual irão incidir os juros. <br/>Símbolo: <b>C</b>.</p>
+                                    <li>Prazo:</li>
+                                    <p>É o tempo de duração do empréstimo ou do investimento. Pode ser medido em dias, meses, trimestres, semestres, anos, etc. <br/>Símbolo: <b>n</b>.</p>
+                                    <li>Juro:</li>
+                                    <p>É o preço (em Reais) pago pelo aluguel, ou empréstimo, do dinheiro (do capital). É também o rendimento do dinheiro aplicado. <br/>Símbolo: <b>J</b>.</p>
+                                    <li>Taxa de Juros:</li>
+                                    <p>É a taxa percentual ou unitária do rendimento do capital ou pagamento pelo uso do capital, numa unidade de tempo (ao dia, ao mês, ao ano,...). <br/>Símbolo: <b>i</b>.</p>
+                                    <li>Montante:</li>
+                                    <p>É o valor total a ser pago ou recebido com a finalidade de quitar um empréstimo. É o valor final de uma aplicação.<br/>Símbolo: <b>M</b>.</p>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <h2 class="texto">Juros Simples: </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br />
+                                <p>No regime de capitalização simples, a taxa de juros incide sempre sobre o capital inicial, durante o período de capitalização.</p><br />
+                                <p class="centro">Fórmulas:</p>
+                                <ul>
+                                    <li>Cálculo dos Juros: J = C * i * n</li>
+                                    <li>Cálculo do Montante: M = C(1 + in)</li>
+                                </ul>
+                                <p class="centro">Juros Simples e Funções Afim:</p>
+                                <p>A rentabilidade do capital, em juros simples, tem crescimento linear, ou seja, a cada período de capitalização, o rendimento é o mesmo. Nesse sentido, podemos estabelecer uma relação entre o valor do Montante e o tempo de capitalização do dinheiro. Exemplo disponível em <a href="#ex">Exemplo de exercício realizado</a></p>
+                                <p>* O gráfico é uma reta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <h2 class="texto">Juros Compostos: </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br />
+                                <p>Quando uma soma está aplicada a juros compostos, os juros são calculados não apenas sobre o capital inicial, mas sobre este capital acrescido dos juros já vencidos.</p>
+                                <p>Capitalização composta é aquela em que a taxa de juros incide sobre o principal acrescido dos juros acumulados até o período anterior (juros sobre juros). Neste regime de capitalização a taxa varia exponencialmente em função do tempo.</p>
+                                <p class="centro">Cálculo do Montante: </p>
+                                <p> É a soma do capital aplicado ou devido mais o valor dos juros correspondentes ao prazo da aplicação ou da dívida.</p>
+                                <p>Fórmula: M = J + C</p>
+                                <p class="centro">Dedução da Fórmula: </p>
+                                <p>O cálculo exponencial está relacionado ao cálculo de juros compostos, sendo assim, para um capital <b>C</b> aplicado a uma taxa <b>i</b> por um período <b>n</b> temos a seguinte fórmula para o montante <b>M</b>:</p>
+                                <p>Fórmula: M = C(1 + i)^n</p>
+                                <p class="centro">Juros Compostos e Funções Exponenciais:</p>
+                                <p>A rentabilidade do capital, em juros compostos, tem crescimento exponencial, ou seja, a cada período de capitalização, o rendimento é sempre maior que o anterior. Nesse sentido, podemos estabelecer uma relação entre o valor do Montante e o tempo de capitalização do dinheiro. Exemplo disponível em <a href="#ex">Exemplo de exercício realizado</a> </p>
+                                <p>* O gráfico é uma curva.</p>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <h2 class="texto">Reflexão:</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br />
+                                <p>O estudo sobre Matemática Financeira é de extrema importância para nossa formação como alunos, afinal a mesma é utilizada em diversos fatores do cotidiano, assim, além de nos dar uma boa base para o ENEM ou vestibulares, serve também para a prevenção de golpes por pessoas maliciosas, sendo esse o principal motivo da escolha do tema.</p>
+                                <p>Os mesmos procedimentos e métodos passados durante a aula online foram utilizados para a realização das atividades e exercícios. Sinto que tive mais dificuldades em relação aos Juros Compostos, talvez por serem um pouco mais complicados. Não foram muitas dúvidas, mas as presentes, foram resolvidas através da leitura dos materiais disponibilizados pela professora, que apresentavam diversos exemplos e aplicações.</p>
+                                <p>Com relação ao meu empenho, dedicação e participação, acredito ter me saído relativamente bem. Apesar de não participar do atendimento dessa vez, consegui resolver minhas dúvidas adequadamente, e entreguei o trabalho sobre o conteúdo no prazo correto, o que considero algo bom. Mas apesar de não sentir muitas dificuldades, ainda preciso prestar mais atenção nos conteúdos, e principalmente durante a aula síncrona, onde algumas vezes deixo algo passar despercebido e isso acaba me prejudicando.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <h2 class="texto">Exemplo de exercício realizado:</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inteiro">
+                        <div class="margem">
+                            <div class="texto"><br />
+                                <p>Um valor de R$ 15.000,00 foi aplicado a uma taxa de 1,5% ao mês. Estabeleça as funções matemáticas que descrevam a rentabilidade do dinheiro ao longo dos meses segundo o regime de capitalização simples e composta. Faça o gráfico de cada tipo de capitalização e analise as diferentes rentabilidades.</p>
+                                <img src="imagens/ex1financeira.jpeg" id="ex" />
+                                <img src="imagens/ex2financeira.jpeg" id="ex" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <br />
+        <br />
+        <center>
+            <a href="index.html" id="voltar">Voltar</a><br />
+        </center>
+    </div>
+</body>
+
+</html>
