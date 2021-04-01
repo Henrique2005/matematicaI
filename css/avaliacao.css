@@ -1,0 +1,53 @@
+body{
+    background-attachment: fixed;
+    background-image: url(../imagens/fundo2.jpg);
+    
+}
+#voltar{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #ff6464;
+    color:black;
+    padding: 20px;
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+#titulo{
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'Arvo', serif;
+    background-color: black;
+    color: white;
+}
+
+.inteiro{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #b7f2e7;
+    color:black;
+    
+    text-align: center;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+.centro{
+    text-align: center;
+}
+.margem{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h2{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+#tudo{
+    border: 6px dashed black;
+    margin: 10px;
+}
